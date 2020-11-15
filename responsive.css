@@ -1,0 +1,99 @@
+/* For Tablets */
+
+@media all and (max-width: 1000px) {
+    .header-left {
+        margin-left: 20px;
+    }
+    .header-right {
+        margin-right: 57px;
+    }
+    .top-wrapper h1 {
+        font-size: 30px;
+    }
+    .top-wrapper p {
+        font-size: 16px;
+    }
+    .top-wrapper {
+        height: 600px;
+    }
+    .lesson-icon img {
+        height: 120px;
+        width: 120px;
+    }
+    .lesson-icon p {
+        font-size: 12px;
+        color: white;
+        opacity: 1;
+    }
+    .lesson-content p {
+        font-size: 13px;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .footer-content p {
+        font-size: 10px;
+        margin-top: -7px;
+    }
+}
+
+
+/* For Smartphones */
+
+@media all and (max-width: 670px) {
+    header {
+        height: 50px;
+    }
+    .header-left {
+        margin: -3px 0px 5px 0px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .header-right {
+        margin-right: 0px;
+    }
+    .header-right ul li a {
+        padding: 10px 7px;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    .top-wrapper {
+        height: fit-content;
+    }
+    .btn {
+        display: inline-block;
+        width: 80%;
+    }
+    .facebook {
+        /* margin-bottom: 10px; */
+        margin: 7px 0px;
+        padding: 12px 25px;
+    }
+    .message-wrapper h2 {
+        font-size: 20px;
+    }
+    .message-wrapper h3 {
+        font-size: 17px;
+    }
+    .message {
+        width: 30%;
+    }
+    .lessons {
+        display: flex;
+        flex-direction: column;
+    }
+    .lesson-items {
+        width: 100%;
+    }
+    .lesson-content p {
+        width: 100%;
+        padding: 0px 75px;
+    }
+}
+
+@media all and (max-width: 525px) {
+    .header-right {
+        display: none;
+    }
+}
